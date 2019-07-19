@@ -34,8 +34,17 @@ git status 查看当前项目的状态
 git config --global user.name ''   校验
 git config --global user.email ''  
 git add . 添加所有文件     git add <file> <file>
-git commit -m  '注释'   提交    提交到暂存区
+git commit -m  '注释'   提交    提交到暂存区     如果不加-m的话  就会变成vim编辑模式   linux系统   退出：(esc :wq)
 git remote add origin 
+git push -u origin master    第一次提交
+git push    后续提交
+git branch    列出所有分支
+git branch -r   列出远端所有分支
+git branch -a   列出本地和远端的所有分支
+git branch 分支名称   ：创建分支但是停留在当前分支
+git checkout 分支名称  ：切换分支
+git checkout -b 分支名称    ：创建并切换到当前分支
+
 
 svg  集中式管理系统
 本地区    服务区
