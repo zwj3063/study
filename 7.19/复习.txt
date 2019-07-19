@@ -1,0 +1,44 @@
+express
+定义：基于node封装的上层服务框架
+核心：中间件    路由     提供API
+简单的路由实现
+app.get :不区分大小写
+params=>接收动态路由参数  /:id      query=>接收get传输过来的值  ?username=tom&age=12
+静态资源服务器
+app.ues()   使用中间件   插件
+express.static()
+var publicpath=path.resolve(__dirname,'public')
+app.use(express.static)
+
+app.post
+中间件
+body-parser
+
+cookie
+特点:
+保存在浏览器本地，只要不过期就会一直存在
+容易受到攻击,大小不能超过4k，cookie携带的信息容易被篡改
+cookie-parser
+npm install  cookie-parser  --save
+加密   signed  true    crypto  md5
+
+sesssion
+express-sesssion
+koa
+
+git  分布式管理系统   github：外国的       码云：中国的
+本地区   暂存区   服务区
+git init 项目初始化
+git status 查看当前项目的状态   
+身份校验 
+git config --global user.name ''   校验
+git config --global user.email ''  
+git add . 添加所有文件     git add <file> <file>
+git commit -m  '注释'   提交    提交到暂存区
+git remote add origin 
+
+svg  集中式管理系统
+本地区    服务区
+
+16年      angular1.0
+17-19年   angular8.0

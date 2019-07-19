@@ -1,0 +1,20 @@
+ejs    模板引擎    基于node
+作用:高效的渲染数据
+<%%>   脚本控制
+<%#%>   注释
+<%_ %>  去除首位空格
+<% _%>  去除尾部空格
+<%=%>   输出
+<%- %>  输出原文
+
+
+npm install ejs -g:下载到全局中    在项目中找不到
+ejs   1.render=>模板(渲染)    2.数据(必须是对象)
+complier   编译
+
+npm init = npm init -y  =>项目初始化
+npm install =>下载       npm uninstall =>卸载
+dependencies =>生产环境的项目依赖
+devdependencies =>开发环境的项目依赖
+
+art-template   模板引擎
